@@ -1,0 +1,50 @@
+Package: base-files
+Architecture: amd64
+Version: 9999-noupdate
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: admin
+Maintainer: Ali Riza KESKIN <parduscix@yandex.ru>
+Installed-Size: 340
+Provides: base
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Filename: pool/main/base-files_9999-noupdate_amd64.deb
+Size: 69792
+MD5sum: d1cd7ebb3a9a34c3e14a751f4d4d3c9a
+SHA1: 09e11b2c22bbd49347281b34f59aca05270eebaa
+SHA256: f1543696c7a8d4d261d8e264e2597d6998b925362a0081b855c98c258fb1e141
+SHA512: 3a49b7e7a81ac6674a82167da3a771d0a47fd3be5850e681ed28a9f60a9cfcb604f534aa96ab7188e3bc00d0e817587d97618daea41745c0a8fd983fe792cb2b
+Description: Debjaro base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debjaro system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debjaro systems.
+
+Package: desktop-base
+Architecture: all
+Version: 9999-noupdate
+Priority: optional
+Section: x11
+Maintainer: Debian Desktop Team <debian-desktop@lists.debian.org>
+Installed-Size: 18
+Depends: base-files, fonts-quicksand
+Recommends: plymouth-label
+Suggests: gnome | kde-standard | xfce4 | wmaker
+Filename: pool/main/desktop-base_9999-noupdate_all.deb
+Size: 12660
+MD5sum: ab564f5ca6caa31045d0887d5daf9dec
+SHA1: 41c8a5730550196849bd6a1a3f756c01df8dd87d
+SHA256: 3de3843ec4cf8af973b8085b5655c0664248690d04527d8dc4a22336f22712e4
+SHA512: 0c84ce9d585e7a29de81656eed1119d266323da64ee3586b6644d5dda9daa5e195d3544975bfb6a5b756ce5b8d99eb3b100cee5a36d77ecbc463b887405d7c4f
+Homepage: https://www.debian.org/devel/debian-desktop/
+Description: common files for the Debian Desktop
+ This package contains various miscellaneous files which are used by
+ Debian Desktop installations.  Currently, it provides some
+ Debian-related artwork and themes, .desktop files containing links to
+ Debian related material (suitable for placement on a user's desktop),
+ and other common files between the available desktop environments
+ such as GNOME and KDE.
+
