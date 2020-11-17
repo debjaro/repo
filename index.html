@@ -1,0 +1,5 @@
+<H1>How to add repository in your system:</H1>
+<br>
+<br>echo "deb https://raw.githubusercontent.com/debjaro/repo/master/stable stable main" > /etc/apt/sources.list.d/debjaro
+<br>wget -O - https://raw.githubusercontent.com/debjaro/repo/master/stable/dists/stable/Release.key | apt-key add -
+<br>apt-get update
