@@ -11,7 +11,7 @@ Provides: base
 Pre-Depends: awk
 Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Replaces: base, dpkg (<= 1.15.0), miscutils
-Filename: pool/main/base-files_9999-noupdate_amd64.deb
+Filename: /home/a/debjaro/repo/srv/stable/pool/main/base-files_9999-noupdate_amd64.deb
 Size: 69792
 MD5sum: d1cd7ebb3a9a34c3e14a751f4d4d3c9a
 SHA1: 09e11b2c22bbd49347281b34f59aca05270eebaa
@@ -33,7 +33,7 @@ Installed-Size: 18
 Depends: base-files, fonts-quicksand
 Recommends: plymouth-label
 Suggests: gnome | kde-standard | xfce4 | wmaker
-Filename: pool/main/desktop-base_9999-noupdate_all.deb
+Filename: /home/a/debjaro/repo/srv/stable/pool/main/desktop-base_9999-noupdate_all.deb
 Size: 12660
 MD5sum: ab564f5ca6caa31045d0887d5daf9dec
 SHA1: 41c8a5730550196849bd6a1a3f756c01df8dd87d
