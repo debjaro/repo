@@ -1,5 +1,6 @@
 #!/bin/bash
 set -ex
+rm -rf build || true
 gitbuild(){
     set -e
     git clone "$1" $(basename "$1")
