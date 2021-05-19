@@ -8,7 +8,7 @@ Installed-Size: 18
 Depends: base-files, fonts-quicksand
 Recommends: plymouth-label
 Suggests: gnome | kde-standard | xfce4 | wmaker
-Filename: /home/a/debjaro/repo/srv/stable/pool/main/desktop-base_9999-noupdate_all.deb
+Filename: pool/main/desktop-base_9999-noupdate_all.deb
 Size: 12660
 MD5sum: ab564f5ca6caa31045d0887d5daf9dec
 SHA1: 41c8a5730550196849bd6a1a3f756c01df8dd87d
