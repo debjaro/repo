@@ -23,3 +23,21 @@ Description: common files for the Debian Desktop
  and other common files between the available desktop environments
  such as GNOME and KDE.
 
+Package: live-save
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: Your Name <your.email@example.org>
+Installed-Size: 17
+Depends: libc6, live-boot
+Filename: pool/main/live-save_0.1.0_all.deb
+Size: 2036
+MD5sum: 86bc51888fba46f7ef1416929a5b2532
+SHA1: 11a97256246ed41b6c6e3f6a3800bbf175594a1b
+SHA256: e7006351fe1598e28b0fc08587391ad26833830d66e4e8792f02362b6091a366
+SHA512: e3e8324b5400b57cc4ff79cec9deceac8a70b763007964c3c0b11586ed2a23b344d1efda275d050ecf15456b24a25f55c359b5e7708034faa40ea2ccb81d29d1
+Homepage: https://example.org
+Description: Edit me
+ Edit me. I am description
+

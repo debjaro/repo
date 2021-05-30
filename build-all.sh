@@ -11,17 +11,9 @@ gitbuild(){
     mv *.deb ./out
     set -ex
 }
-ubuild(){
-    set -e
-    local gh="https://raw.githubusercontent.com/debjaro/unibuild-repo"
-    unibuild $gh/$1
-    mv *.deb ./out
-    set -ex
-}
 mkdir build || true
 cd build
 mkdir out || true
-ubuild main/matcha-gtk-theme.unibuild
 gitbuild https://github.com/debjaro/desktop-base
 gitbuild https://github.com/debjaro/base-files
-
+gitbuild https://github.com/debjaro/live-save
