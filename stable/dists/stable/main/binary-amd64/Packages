@@ -12,11 +12,11 @@ Pre-Depends: awk
 Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Filename: pool/main/base-files_9999-noupdate_amd64.deb
-Size: 69792
-MD5sum: d1cd7ebb3a9a34c3e14a751f4d4d3c9a
-SHA1: 09e11b2c22bbd49347281b34f59aca05270eebaa
-SHA256: f1543696c7a8d4d261d8e264e2597d6998b925362a0081b855c98c258fb1e141
-SHA512: 3a49b7e7a81ac6674a82167da3a771d0a47fd3be5850e681ed28a9f60a9cfcb604f534aa96ab7188e3bc00d0e817587d97618daea41745c0a8fd983fe792cb2b
+Size: 69780
+MD5sum: af19f5dfd36674ebb0be02f2e58bf1b9
+SHA1: 548e73cde6e3d000e31d3717814c89844a5fa195
+SHA256: 215a2e9a28511b8a38a4340e2069332ffb85b434482b8dd2c2cf97c5b5f57d84
+SHA512: 7a6b48a5511c3331ac3d0c6bfa16c35a4981b9fd906ff71a97c5200936ab0aa15104b9f374f0e7709c07f76c8c38c18ebc1c213a3281a7583d745e0e1477a45c
 Description: Debjaro base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debjaro system, and
  several important miscellaneous files, such as /etc/debian_version,
